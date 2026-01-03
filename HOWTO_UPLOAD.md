@@ -28,7 +28,7 @@ git init
 git add .
 git commit -m "Initial commit: IoTPlatform Arduino Library v1.0.0"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/IoTPlatform-Arduino-Library.git
+git remote add origin https://github.com/muhamad-bekti-wibowo/IoTPlatform-Arduino-Library.git
 git push -u origin main
 ```
 
@@ -45,11 +45,12 @@ User bisa install dengan cara:
 ### Via Git
 ```bash
 cd ~/Documents/Arduino/libraries
-git clone https://github.com/YOUR_USERNAME/IoTPlatform-Arduino-Library.git
+git clone https://github.com/muhamad-bekti-wibowo/IoTPlatform-Arduino-Library.git
 ```
 
 ## Update library.properties
 
-Jangan lupa update file `library.properties`:
-- Ganti `YOUR_USERNAME` dengan username GitHub Anda
-- Ganti author dan maintainer dengan nama dan email Anda
+Sudah di-update dengan:
+- Author: Muhamad Bekti Wibowo
+- Maintainer: muhamad bekti wibowo <mbektiwibowo@gmail.com>
+- URL: https://github.com/muhamad-bekti-wibowo/IoTPlatform-Arduino-Library
